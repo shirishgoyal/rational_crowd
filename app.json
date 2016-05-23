@@ -10,18 +10,18 @@
     },
     "DJANGO_ALLOWED_HOSTS": {
       "description": "Comma-separated list of hosts",
-      "value": ".herokuapp.com"
+      "value": "rational-crowd.herokuapp.com"
     },
     "DJANGO_ADMIN_URL": {
       "description": "A secret URL for the Django admin",
       "generator": "secret"
     },
-    "DJANGO_AWS_ACCESS_KEY_ID": "",
-    "DJANGO_AWS_SECRET_ACCESS_KEY": "",
-    "DJANGO_AWS_STORAGE_BUCKET_NAME": "",
-    "DJANGO_MAILGUN_SERVER_NAME": "",
-    
-    "DJANGO_MAILGUN_API_KEY": "" 
+    "DJANGO_AWS_ACCESS_KEY_ID": "dummy",
+    "DJANGO_AWS_SECRET_ACCESS_KEY": "dummy",
+    "DJANGO_AWS_STORAGE_BUCKET_NAME": "dummy",
+    "DJANGO_MAILGUN_SERVER_NAME": "dummy",
+
+    "DJANGO_MAILGUN_API_KEY": "dummy"
   },
   "scripts": {
     "postdeploy": "python manage.py migrate"
