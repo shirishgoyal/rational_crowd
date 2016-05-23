@@ -39,6 +39,5 @@ pytz==2016.4
 django-redis==4.4.2
 redis>=2.10.0
 
-
-
-# Your custom requirements go here
+# API
+djangorestframework
